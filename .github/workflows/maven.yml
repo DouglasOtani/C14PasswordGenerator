@@ -78,5 +78,5 @@ jobs:
         if: always()
         run: bash ./scripts/sendEmail.sh
         env:
-          EMAIL_RECEIVER: ${{ secrets.Email_para_Pipeline }}
+          EMAIL_RECEIVER: ${{ secrets.EMAIL_PARA_PIPELINE}}
       
