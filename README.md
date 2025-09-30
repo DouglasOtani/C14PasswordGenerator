@@ -1,4 +1,5 @@
 # **C14PasswordGenerator**
+[![Java CI with Maven](https://github.com/DouglasOtani/C14PasswordGenerator/actions/workflows/maven.yml/badge.svg)](https://github.com/DouglasOtani/C14PasswordGenerator/actions/workflows/maven.yml)
 
 Um gerador de senhas simples construído em Java, utilizando Maven para gerenciamento de dependências e GitHub Actions para integração contínua.
 
