@@ -73,9 +73,9 @@ jobs:
     steps:
       
       - uses: actions/checkout@v4
-      
       - name: Notification
-        run: sh scripts/sendEmail.sh
+        run: chmod +x ./scripts/sendEmail.sh
         env:
           EMAIL_RECEIVER: ${{ secrets.EMAIL_PARA_PIPELINE}}
+      
       
